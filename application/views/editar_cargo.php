@@ -1,9 +1,7 @@
 <?
 foreach ($e_cargo as $row) { 
-
 $cargo = $row->cargo;
-=
-
+$id = $row->id;
 
 } 
 ?>
@@ -38,101 +36,16 @@ jQuery(function($){
 <body>
 	<?	$this->load->view('i_topo_v'); ?>
     <?	$this->load->view('i_menu_v'); ?>
-<form action="<?= base_url().'salvar/cliente/editar' ?>" method="post" class="formee" id="form_editar_cliente"   >
+<form action="<?= base_url().'salvar/cargo/editar' ?>" method="post" class="formee" id="form_editar_cliente"   >
 <div class="content container_12">   
- 	<? if($this->session->flashdata('msg_ok')==1) { ?> <div class="formee-msg-success"><h3>Cliente Atualizado</h3></div><? } ?>
-		 	<div class="box-head"><h2>Editar Cliente</h2></div>
+ 	<? if($this->session->flashdata('msg_ok')==1) { ?> <div class="formee-msg-success"><h3>Cargo Atualizado</h3></div><? } ?>
+		 	<div class="box-head"><h2>Editar Cargo</h2></div>
         	<div class="box-content box">
         	<div class="grid_6">
     			Nome <em class="formee-req">*</em>
-   				<input name="nome" type="text" value="<?= $nomcli ?>" />
+   				<input name="nome" type="text" value="<?= $cargo ?>" />
    			</div>
-			<div class="grid_6">
-    			Empresa
-   				<input name="empresa" type="text" value="<?= $razcli ?>" />
-   			</div>	
-   		     <div class="grid_4">
-   			      Tipo <em class="formee-req">*</em>
-   				  <select name="tipo_pessoa" id="tipo_pessoa">   				 
-   			      <option value="Física" <? if($tipcli=="Física") { ?> selected="selected" <? } ?>>Pessoa Física</option>
-   			      <option value="Jurídica" <? if($tipcli=="Jurídica") { ?> selected="selected" <? } ?>>Pessoa Jurídica</option>
-   			      </select>
-			</div>	
-   			<div class="grid_4">
-    			Telefone <em class="formee-req">*</em>
-   				<input name="telefone" class="mascara_fone" type="text" value="<?= $telcli ?>" />
-   				
-   			</div>	
-   			<div class="grid_4">
-    			Celular
-   				<input name="celular" class="mascara_fone" type="text" value="<?= $celcli ?>" />
-   			</div>	
-   			<div class="grid_6">
-   			     Endereço<em class="formee-req">*</em>
-   			     <input name="end" type="text" value="<?= $endcli ?>" />
-   			</div>
-			<div class="grid_2">
-   			     Número <em class="formee-req">*</em>
-   				 <input name="end_n" type="text" value="<?= $numcli ?>" />
-			</div>
-			<div class="grid_4">
-   			     Complemento <em class="formee-req">*</em>
-   				 <input name="end_comp" type="text" value="<?= $comcli ?>" />
-			</div>
-			<div class="grid_5">
-   			     Bairro: <em class="formee-req">*</em>
-   				 <input name="end_bairro" type="text" value="<?= $baicli ?>" />
-			</div>	
-			<div class="grid_4">
-   			     CEP
-   				 <input name="end_cep" type="text" value="<?= $cepcli ?>" />
-			</div>		
-		    <div class="grid_3">
-   			      Cidade <em class="formee-req">*</em>
-   				  <select name="end_cidade" id="end_cidade">   				 
-   			      <option value="6094">Francisco Beltrão</option>
-   			      </select>
-			</div>		<!-- grid_3 -->
-   		</div><!-- box-content box -->
-
-   			<div class="box-head"><h2>Informações Fiscais</h2></div>
-        	<div class="box-content box">
-        	<div class="grid_3">
-    			CPF
-   				<input name="cpf" id="mascara_cpf" type="text" value="<?= $cpfcli ?>" />
-   			</div>
-   			<div class="grid_3">
-    			CNPJ
-   				<input name="cnpj" id="mascara_cnpj" type="text" value="<?= $cnpcli ?>" />
-   			</div>		
-   			<div class="grid_3">
-    			RG
-   				<input name="rg" type="text" value="<?= $rgcli ?>" />
-   			</div>
-   			<div class="grid_3">
-    			IE
-   				<input name="iefor" type="text" value="<?= $iefor ?>" />
-   			</div>	<!-- grid_3 -->
-   		</div><!-- box-content box -->
-
-   			<div class="box-head"><h2>Informações de Acesso </h2></div>
-        	<div class="box-content box">
-        	<div class="grid_4">
-    			Email <em class="formee-req">*</em>
-   				<input name="email" type="text" value="<?= $emacli ?>" />
-   			</div>	
-   			<div class="grid_4">
-    			Senha <em class="formee-req">*</em>
-   				<input name="senha" type="password" value="<?= $senha ?>" />
-   			</div>
-   			 <div class="grid_4">
-   			     Técnico Responsável <em class="formee-req">*</em>
-   				 <select name="tecnico" id="tecnico">	 
-   				 <?php foreach ($tecnico as $row) { ?>
-   			     	<option value="<?= $row->CODFUN; ?>" <? if($codfun==$row->CODFUN){ ?> selected="selected"  <? } ?>  ><?= $row->NOMFUN; ?> </option>
-   			     <? } ?>
-   				 </select>
-			</div>	<input name="codcli" type="hidden" value="<?= $codcli ?>" />
+			<input name="codcli" type="hidden" value="<?= $id ?>" />
 			<div class="grid_2"><input type="submit" value="Salvar" class="button black" ></div>	
 	   		</div> 	<!-- grid_4 -->	
    		   		</div><!-- box-content --> 
