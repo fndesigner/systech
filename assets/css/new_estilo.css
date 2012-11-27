@@ -1,0 +1,7 @@
+
+/* Classe de uso geral 
+.msg_ok { padding-top: 7px; margin-top: 20px; border-color: #56ff1f; border-width: 1px; padding-left: 10%; margin-left: 10%; background-color: #cfffe1; width: 900px; height: 30px; font-size: 15px; font-family: Tahoma; text-align: left; }
+.botao { width:90px; font-size:16px; font-family: Tahoma; background-color: #d83135; border: none; color: #FFF; text-align:center; cursor: pointer; }
+*/
+
+.submenu { display: none;list-style-type:none;  background-color: #4d4d4d; width:80px;}

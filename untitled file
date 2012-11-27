@@ -1,0 +1,55 @@
+<script src="{{skin url='js/jquery.nivo.slider.js'}}" type="text/javascript"></script>
+<script type="text/javascript">// <![CDATA[
+    jQuery(window).load(function() {
+        jQuery('#slider').nivoSlider({
+            effect:'fade', //Specify sets like: 'fold,fade,sliceDown'
+            pauseTime:20000,
+            directionNav:false, //Next and Prev
+            captionOpacity:1 //Universal caption opacity
+        });
+    });
+// ]]></script>
+<div class="nivo-slider">
+<div id="slider">
+
+<a><img title="#htmlcaption" src="{{skin url='images/media/slider_img_1.png'}}" alt="" /></a> 
+<a><img title="#htmlcaption_2" src="{{skin url='images/media/slider_img_2.png'}}" alt="" /></a> 
+<a><img title="#htmlcaption_3" src="{{skin url='images/media/slider_img_3.png'}}" alt="" /></a>
+
+<a><img title="#htmlcaption_4" src="{{skin url='images/media/slide1.png'}}" alt="" /></a>
+<a><img title="#htmlcaption_5" src="{{skin url='images/media/slide2.png'}}" alt="" /></a>
+
+</div>
+
+<div id="htmlcaption" class="nivo-html-caption">
+<a href="#"><img src="{{skin url='images/media/slider_product_1_logo.png'}}" alt="" /></a>
+<h3>VPCSA33GX/SI<br /> Laptop Computer</h3>
+<p>Intel Core i5-2430M 2.40GHz, 4GB DDR3, 128GB SSD, DVDRW, 1GB AMD Radeon HD 6630M, Backlit Keyboard, 13.3" Display, Windows 7 Professional 64-bit</p>
+<span class="save-price">SAVE $499</span>
+<span class="price">$1,299</span>
+<button class="button btn-cart" title="shop" onclick="setLocation('#')"><span>&nbsp;</span></button></div>
+
+
+
+<div id="htmlcaption4" class="nivo-html-caption">
+
+div 4
+
+</div>
+
+<div id="htmlcaption5" class="nivo-html-caption">
+div 5
+</div>
+
+
+
+
+<div id="htmlcaption_2" class="nivo-html-caption"><a href="#"><img src="{{skin url='images/media/slider_product_2_logo.png'}}" alt="" /></a>
+<h3>VPCSA33GX/SI<br /> Laptop Computer</h3>
+<p>Intel Core i5-2430M 2.40GHz, 4GB DDR3, 128GB SSD, DVDRW, 1GB AMD Radeon HD 6630M, Backlit Keyboard, 13.3" Display, Windows 7 Professional 64-bit</p>
+<span class="save-price">SAVE $99</span> <span class="price">$799</span> <button class="button btn-cart" title="shop" onclick="setLocation('#')"><span>&nbsp;</span></button></div>
+<div id="htmlcaption_3" class="nivo-html-caption"><a href="#"><img src="{{skin url='images/media/slider_product_3_logo.png'}}" alt="" /></a>
+<h3>The new iMac</h3>
+<p class="item3">Intel Core i5-2430M 2.40GHz, 4GB DDR3, 128GB SSD, DVDRW, 1GB AMD Radeon HD 6630M, Backlit Keyboard, 13.3" Display, Windows 7<br /> Professional 64-bit</p>
+<span class="save-price">SAVE $499</span> <span class="price">$1,799</span> <button class="button btn-cart" title="shop" onclick="setLocation('#')"><span>&nbsp;</span></button></div>
+</div>

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<areas_direito>
+  <area_direito>
+    <nome>Advocacia de Apoio</nome>
+    <id_areadireito>1</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Administrativo</nome>
+    <id_areadireito>2</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Aeron&#xE1;utico</nome>
+    <id_areadireito>3</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Agr&#xE1;rio</nome>
+    <id_areadireito>4</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Ambiental</nome>
+    <id_areadireito>5</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Civil</nome>
+    <id_areadireito>6</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Constitucional</nome>
+    <id_areadireito>7</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito de Energia</nome>
+    <id_areadireito>8</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito de Fam&#xED;lia</nome>
+    <id_areadireito>9</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito de Propriedade</nome>
+    <id_areadireito>10</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito do Consumidor</nome>
+    <id_areadireito>11</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito do Trabalho</nome>
+    <id_areadireito>12</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito do Turismo</nome>
+    <id_areadireito>13</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito e Internet</nome>
+    <id_areadireito>14</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Eleitoral</nome>
+    <id_areadireito>15</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Empresarial</nome>
+    <id_areadireito>16</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Financeiro</nome>
+    <id_areadireito>17</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Imobili&#xE1;rio (Im&#xF3;veis)</nome>
+    <id_areadireito>18</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Internacional</nome>
+    <id_areadireito>19</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito M&#xE9;dico</nome>
+    <id_areadireito>20</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Militar</nome>
+    <id_areadireito>21</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Penal (Criminalista)</nome>
+    <id_areadireito>22</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Previdenci&#xE1;rio</nome>
+    <id_areadireito>23</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito P&#xFA;blico</nome>
+    <id_areadireito>24</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Securit&#xE1;rio</nome>
+    <id_areadireito>25</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Tribut&#xE1;rio</nome>
+    <id_areadireito>26</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direitos Humanos</nome>
+    <id_areadireito>27</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Propriedade Industrial / Intelectual</nome>
+    <id_areadireito>28</id_areadireito>
+  </area_direito>
+  <area_direito>
+    <nome>Direito Arbitral</nome>
+    <id_areadireito>29</id_areadireito>
+  </area_direito>
+</areas_direito>

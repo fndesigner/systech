@@ -1,0 +1,123 @@
+/* TOPO */
+#box_geral {width: 900px; height: 1150px; }
+#box_topo {width: 900px; height: 80px;}
+.logo {margin-top: 5px; float: left; margin-left: 10px;}
+.end {font-size: 14px; float: left; margin-left: 60px; margin-top: 14px; font-family: Tahoma; }
+.end1 {height: 20px;font-weight: bold; font-size: 15px;}
+.end2 {height: 20px;}
+.end3 {height: 20px; font-size: 14px;}
+.info_os {font-size: 14px; text-align: center; font-family: Tahoma; float: left; margin-top: 5px; margin-left: 60px; }
+.os {font-weight: bold;}
+.data {margin-top: 3px;}
+.n_os {font-size: 24px; font-family: Tahoma; font-weight: bold; margin-top: 2px;}
+.linha {width: 900px; border: 1px solid #bdbdbd;float: left; margin-top: 10px;}
+
+/* BOX_INFO */
+#box_info {width: 900px; height: 40px; float: left; margin-top: 20px;}
+.tecnico1 {width: 320px; float: left; font-weight: bold; margin-left: 30px;}
+.data1 {width: 160px; float: left; font-weight: bold; margin-left: 20px;}
+.situacao1 {width: 160px; float: left; font-weight: bold; margin-left: 30px;}
+.valor1 {width: 100px; float: left; font-weight: bold; margin-left: 50px;}
+.tecnico2 {width: 320px; float: left; font-weight: bold; margin-left: 30px; }
+.data2 {width: 160px; float: left; font-weight: bold; margin-left: 20px;}
+.situacao2 {width: 160px; float: left; font-weight: bold; margin-left: 30px;}
+.valor2 {width: 100px; float: left; font-weight: bold; margin-left: 50px;}
+.linha_pontilhada01 {width: 850px; border: 1px dashed#bdbdbd; float: left; margin-top: 10px; margin-left: 25px;}
+
+/* BOX_CLIENTE */
+#box_cliente {width: 900px; height: 40px; float: left; margin-top: 25px;}
+.nome1 {width: 320px; float: left; margin-left: 30px;}
+.cpf1 {width: 120px; float: left; margin-left: 20px; }
+.telefone1 {width: 120px; float: left; margin-left: 71px; }
+.cep1 {width: 80px; float: left; margin-left: 90px;}
+.nome2 {width: 320px; float: left; margin-left: 30px; font-weight: bold;}
+.cpf2 {width: 120px; float: left; margin-left: 20px; font-weight: bold; }
+.telefone2 {width: 120px; float: left; margin-left: 71px; font-weight: bold; }
+.cep2 {width: 80px; float: left; margin-left: 90px; font-weight: bold; }
+#box_cliente2 {width: 900px; height: 40px; float: left; margin-top: 15px;}
+.endereco1 {width: 320px; float: left; margin-left: 30px;}
+.numero1 {width: 120px; float: left; margin-left: 20px; }
+.bairro1 {width: 120px; float: left; margin-left: 70px; }
+.endereco2 {width: 320px; float: left; margin-left: 30px; font-weight: bold;}
+.numero2 {width: 80px; float: left; margin-left: 21px; font-weight: bold;}
+.bairro2 {width: 200px; float: left; margin-left: 110px; font-weight: bold;}
+#box_cliente3 {width: 900px; height: 40px; float: left; margin-top: 10px;}
+.cidade1 {width: 200px; float: left; margin-left: 30px; }
+.estado1 {width: 50px; float: left; margin-left: 140px; }
+.email1 {width: 275px; float: left; margin-left: 140px; }
+.cidade2 {width: 200px; float: left; margin-left: 30px; font-weight: bold; }
+.estado2 {width: 50px; float: left; margin-left: 140px; font-weight: bold; }
+.email2 {width: 275px; float: left; margin-left: 140px; font-weight: bold; }
+.linha_pontilhada {width: 850px; border: 1px dashed#bdbdbd; float: left; margin-top: 10px; margin-left: 25px;}
+
+/* BOX_EQUIPAMENTO */
+#box_equip1 {width: 900px; height: 40px; float: left; margin-top: 15px; }
+.marca1 {width: 200px; float: left; margin-left: 30px;}
+.name1 {width: 230px; float: left; margin-left: 20px; }
+.mae1 {width: 200px; float: left; margin-left: 20px; }
+.fonte1 {width: 150px; float: left; margin-left: 20px;}
+.marca2 {width: 200px; float: left; margin-left: 30px; font-weight: bold;}
+.name2 {width: 230px; float: left; margin-left: 20px; font-weight: bold; }
+.mae2 {width: 200px; float: left; margin-left: 20px; font-weight: bold;}
+.fonte2 {width: 150px; float: left; margin-left: 20px; font-weight: bold;}
+
+#box_equip2 {width: 900px; height: 40px; float: left; margin-top: 15px; }
+.hd1 {width: 200px; float: left; margin-left: 30px;}
+.memoria1 {width: 230px; float: left; margin-left: 20px; }
+.drive1 {width: 180px; float: left; margin-left: 40px; }
+.processador1 {width: 180px; float: left; margin-left: 20px;}
+.hd2 {width: 200px; float: left; margin-left: 30px; font-weight: bold;}
+.memoria2 {width: 230px; float: left; margin-left: 20px; font-weight: bold; }
+.drive2 {width: 180px; float: left; margin-left: 40px; font-weight: bold;}
+.processador2 {width: 180px; float: left; margin-left: 20px; font-weight: bold;}
+.linha {width: 900px; border: 1px solid #bdbdbd;float: left; margin-top: 10px;}
+
+/* BOX_DETALHES */
+#defeito_reclamado {width: 900px; height: 40px; float: left; margin-top: 15px; }
+.defeito {font-weight: bold; font-size: 16px; margin-left: 30px; float: left;  }
+.linha_1 {width: 840px; border: 1px dashed#bdbdbd; float: left; margin-top: 4px; margin-left: 2px; }
+#texto_defeito {width: 850px; height: 60px; margin-top: 10px; float: left; margin-left: 30px; font-style: italic;}
+#texto_solucao{width: 850px; height: 60px; margin-top: 10px; float: left; margin-left: 30px; font-style: italic;}
+#texto_obs{width: 850px; height: 60px; margin-top: 10px; float: left; margin-left: 30px; font-style: italic;}
+
+#observacoes {width: 900px; height: 40px; float: left; margin-top: 100px; }
+.obs {font-weight: bold; font-size: 16px; margin-left: 30px; float: left; margin-top: 100px;}
+
+#solucao {width: 900px; height: 40px; float: left; margin-top: 50px; margin-bottom: 50px; }
+.solucao {font-weight: bold; font-size: 16px; margin-left: 30px; float: left; }
+
+.assinatura {width: 360px; float: left; margin-top: 80px; border: 1px solid #000000; margin-left: 500px;}
+.assinatura2 {width: 350px; margin-top: 7px; margin-left: 540px; float: left;}
+
+#box_destaque {width: 825px; height: 30px; float: left; margin-top: 15px}
+.destaque {float: left; margin-left: 25px; }
+.destaque2 {width: 800px; border: 1px dashed#bdbdbd; margin-left: 30px; margin-top: -15px; float: left;}
+
+
+/* BOX_INFO RODAPE */
+#box_topo {width: 900px; height: 80px; margin-top: 20px;}
+.logo {margin-top: 5px; float: left; margin-left: 10px;}
+.end {font-size: 14px; float: left; margin-left: 60px; margin-top: 14px; font-family: Tahoma;}
+.end1 {height: 20px;font-weight: bold; font-size: 15px;}
+.end2 {height: 20px;}
+.end3 {height: 20px; font-size: 14px;}
+.info_os {font-size: 14px; text-align: center; font-family: Tahoma; float: left; margin-top: 5px; margin-left: 60px; }
+.os {font-weight: bold;}
+.data {margin-top: 3px;}
+.n_os {font-size: 24px; font-family: Tahoma; font-weight: bold; margin-top: 2px;}
+.linha {width: 900px; border: 1px solid #bdbdbd;float: left; margin-top: 10px;}
+
+#box_info2 {width: 900px; height: 40px; float: left; margin-top: 7px;}
+.nome01 {width: 320px; float: left; margin-left: 30px;}
+.tecnico01 {width: 320px; float: left; margin-left: 80px;}
+.valor01 {width: 70px; float: left; margin-left: 40px;}
+.nome02 {width: 320px; float: left; font-weight: bold; margin-left: 30px;}
+.tecnico02 {width: 320px; float: left; font-weight: bold; margin-left: 80px; }
+.valor02 {width: 70px; float: left; font-weight: bold; margin-left: 40px;}
+
+.info_importante {width: 860px; float: left; margin-top: 25px; margin-left: 20px; font-size: 13px; text-align:inherit;}
+
+
+
+
+

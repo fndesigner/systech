@@ -1,0 +1,71 @@
+
+/* Classe de uso geral */
+.msg_ok { padding-top: 7px; margin-top: 20px; border-color: #56ff1f; border-width: 1px; padding-left: 10%; margin-left: 10%; background-color: #cfffe1; width: 900px; height: 30px; font-size: 15px; font-family: Tahoma; text-align: left; }
+.botao { width:90px; font-size:16px; font-family: Tahoma; background-color: #d83135; border: none; color: #FFF; text-align:center; cursor: pointer; }
+.box_center{ margin-left: 10%; margin-right: 10%;}
+label.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 13px }
+.alinha_btn_fechar {margin-left: 15px; cursor: pointer;}
+.texto_alinha_direita {text-align: right;}
+
+/* Início Topo */
+#box_topo { width:1024px; height: 135px; margin-left: 10%; margin-right: 10%;}
+#painel  { width: 370px; height: 105px; background-image: url(../di/painel.jpg); float: left;  margin-top: 8px; margin-left: 50px; }
+#logo  { width: 347px; height: 105px; background-image: url(../di/logo.png); float: left;  margin-top: 15px; margin-left: 200px; }
+#linha  { width: 1024px; height: 3px; background-image: url(../di/linha.png); float: left; margin-top: 1px; background-repeat: repeat-x; }
+
+/* Início Rodape */
+#box_rodape { width:1024px; height: 50px; margin-left: 10%; margin-right: 10%; float: left;}
+#texto_rodape {font-size: 12px; float: left; margin-left: 70px; margin-top: 20px;}
+#logo_rodape {width: 149px; height: 45px; background-image: url(../di/logo_rodape.jpg); margin-left: 830px; background-repeat: no-repeat; margin-top: 5px;}
+
+/* Início Menu */
+#box_menu { width:1024px; height: 30px; margin-left: 10%; margin-right: 10%;}
+#bg_menu  { width: 1024px; height: 32px; background-image: url(../di/bg_menu.png); float: left; margin-top: -5px; background-repeat: repeat-x; }
+/* JQUERY UI  */
+.ui-autocomplete-loading { background: white url('../di/ui-anim_basic_16x16.gif') right center no-repeat; }
+#menu_texto { width:1024px; height:20px;  }
+#menu_texto li { font-size:16px; list-style-type:none; color:#FFF; margin-top:-8px; float:left; margin-right:1%; margin-left:32px; font-family:Tahoma, Geneva, sans-serif; }
+#box_menu a:link {text-decoration:none;color:#FFF;} 
+#box_menu a:visited {text-decoration:none;color:#FFF;} 
+#box_menu a:hover {text-decoration:underline; color:#CCC;} 
+.css_link_padrao a:link {font-size: 14px; text-decoration:none;color: #c10000;} 
+.css_link_padrao a:visited { font-size: 14px; text-decoration:none;color: #bb2000;}  
+.css_link_padrao a:hover {font-size: 14px; text-decoration:none;color: #0b0700;} 
+/* Início Login */
+#login { width:1024px; height: 60px; margin-left: 30%; font-size:16px; margin-top:3%;}
+#entrar { margin-left:11%; margin-top:30px;}
+#login input { height:30px; font-size:24px;}
+#login_botao {width:1024px; height: 450px; margin-left: 36%; font-size:16px; margin-top:13%;}
+
+
+/* Início Painel */
+#box_painel { width:1024px; height: 350px; margin-left: 10%; margin-right: 10%;}
+#os { background-image: url(../di/os.png); width:1024px; height:162px; margin-top:10px; float:left; }
+#status { background-image: url(../di/status.png); width:1024px; height:99px; margin-top:15px; float:left; }
+#box_icone { width:1024px; height:400px; margin-left:10%; margin-top: 25px; }
+.icone {width:200px; height:160px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-family:Tahoma, Geneva, sans-serif; float:left;} 
+
+/* Início Cadastro de Funcionário*/
+#funcionario {width:1024px; height: 400px; margin-left: 10%; margin-right: 10%; margin-top:20px; font-family:Tahoma, Geneva, sans-serif; font-size:14px; }
+#funcionario input { height:30px; font-size:24px; }
+.coluna1 { width:500px; height:100px; float:left; margin-left:10px;}
+.coluna2 { width:500px; height:100px; margin-left:50%;}
+.colunas1 { width:1024px; height: 50px; margin-left: 5%; margin-right: 5%; margin-top:40px;}
+.colunas2 { width:1024px; height: 50px; margin-left: 12%; margin-top:40px;}
+.coluna01 { width:300px; height:50px; float:left; margin-left:15px; }
+.coluna02 { width:300px; height:50px; margin-left:45%; }
+.divisao { width:1024px; height: 3px; background-image:url(../di/divisao.png); margin-top:5px; }
+.texto_divisao { font-size:16px; color:#999; margin-top:150px; margin-left: 5%;}
+#funcionario_botao {width:1024px; height: 100px; margin-left: 34%; font-size:16px; margin-top:1%;}
+
+/* Início Cadastro de Unidade*/
+#unidade {width:1024px; height: 250px; margin-left: 10%; margin-right: 10%; margin-top:40px; font-family:Tahoma, Geneva, sans-serif; font-size:14px; }
+#unidade input { height:30px; font-size:24px; }
+.coluna1 { width:500px; height:200px; float:left; margin-left:10px;}
+.coluna2 { width:500px; height:200px; margin-left:50%;}
+.colunas1 { width:1024px; height: 100px; margin-left: 5%; margin-right: 5%; margin-top:80px;}
+#unidade_botao {width:1024px; height: 100px; margin-left: 34%; font-size:16px; margin-top:4%;}
+
+/* Início Cadastro de Unidade*/
+#cargo_botao {width:1024px; height: 100px; margin-left: 34%; font-size:16px; margin-top:4%;}
+.texto_padrao { color: #3c3c3c; font-size: 14px; font-family: tahoma; }
